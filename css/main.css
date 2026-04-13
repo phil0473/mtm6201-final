@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand strong {
 /* hero sect custom */
 .hero-section {
     /* uses a linear gradient overlay to ensure text readability over the bg image */
-    background: linear-gradient(rgba(215, 230, 235, 0.85), rgba(215, 230, 235, 0.85)), url('../img/hero-bg.jpg');
+    background: linear-gradient(rgba(215, 230, 235, 0.85), rgba(215, 230, 235, 0.85)), url('../img/hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
