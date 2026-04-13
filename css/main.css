@@ -1,0 +1,38 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    /* customizing boostrap variables to match the wireframe palette */
+    --bs-success: #689f38; /* Forest Green for Book a Table */
+    --bs-success-rgb: 104, 159, 56;
+    
+    --bs-warning: #fbc02d; /* Golden Yellow for Book Now */
+    --bs-warning-rgb: 251, 192, 45;
+    
+    --bs-font-sans-serif: 'Inter', sans-serif;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+}
+
+/* applying the serif font to headings for  elevated look */
+h1, h2, h3, h4, h5, h6, .navbar-brand strong {
+    font-family: 'Playfair Display', serif;
+}
+
+/* hero sect custom */
+.hero-section {
+    /* uses a linear gradient overlay to ensure text readability over the bg image */
+    background: linear-gradient(rgba(215, 230, 235, 0.85), rgba(215, 230, 235, 0.85)), url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Ensure images in the responsive picture tags behave */
+picture img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
