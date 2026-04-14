@@ -9,6 +9,7 @@
 </head>
 <body class="bg-light">
 
+    <!-- Same nav structure as index, Menu link is active here -->
     <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top shadow-sm">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -31,34 +32,42 @@
     </nav>
 
     <main class="container py-5">
+        <!-- Centered single column layout, max-width for readability -->
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 
+                <!-- Category filter buttons (not functional yet, just UI) -->
                 <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4">
                     <button class="btn btn-success px-4" type="button">FOOD</button>
                     <button class="btn btn-outline-success px-4" type="button">DRINKS</button>
                     <button class="btn btn-outline-success px-4" type="button">DESSERT</button>
                 </div>
                 
+                <!-- PDF download CTA -->
                 <div class="text-center mb-5">
                     <a href="#" class="btn btn-outline-secondary w-100 py-2">DOWNLOAD PDF MENU</a>
                 </div>
 
+                <!-- Menu items card: repeating item structure -->
                 <div class="card border-0 shadow-sm rounded-4 mb-5 p-3">
                     
+                    <!-- Item 1: Active, with image -->
                     <div class="d-flex align-items-center border-bottom py-3">
                         <img src="img/salad.jpg" alt="Garden Fresh Salad" class="rounded-3 me-3" width="70" height="70" style="object-fit: cover;">
                         <div class="flex-grow-1">
                             <h4 class="h5 mb-1">Garden Fresh Salad</h4>
                             <p class="text-muted mb-0 small">Mixed greens, cherry tomatoes, cucumber</p>
                         </div>
+                        <!-- Badge for dietary tag, price aligned right -->
                         <div class="d-flex align-items-center">
                             <span class="badge bg-success-subtle text-success me-3 rounded-pill">GF</span>
                             <strong class="fs-5">$12</strong>
                         </div>
                     </div>
 
+                    <!-- Item 2: Sold out state with strikethrough and muted styling -->
                     <div class="d-flex align-items-center border-bottom py-3">
+                        <!-- Placeholder for missing image -->
                         <div class="bg-light rounded-3 me-3 d-flex align-items-center justify-content-center text-muted" style="width: 70px; height: 70px;">
                             <span>img</span>
                         </div>
@@ -66,6 +75,7 @@
                             <h4 class="h5 mb-1 text-decoration-line-through text-muted">Mushroom Risotto</h4>
                             <p class="text-muted mb-0 small">Creamy arborio rice with wild mushrooms</p>
                         </div>
+                        <!-- Sold out badge, dietary tag, muted price -->
                         <div class="d-flex align-items-center">
                             <span class="badge bg-warning-subtle text-warning me-2">SOLD OUT</span>
                             <span class="badge bg-success-subtle text-success me-3 rounded-pill">V</span>
@@ -73,6 +83,7 @@
                         </div>
                     </div>
 
+                   <!-- Item 3: Active, no bottom border (last item) -->
                    <div class="d-flex align-items-center py-3">
                         <img src="img/truffle-pasta.jpg" alt="House-made Truffle Pasta" class="rounded-3 me-3" width="70" height="70" style="object-fit: cover;">
                         <div class="flex-grow-1">
@@ -87,6 +98,7 @@
 
                 </div>
 
+                <!-- Sourcing statement card with green border accent -->
                 <div class="card border-success border-2 shadow-sm rounded-4 p-4 text-center bg-white">
                     <h5 class="text-success mb-3">Our Sourcing Promise</h5>
                     <p class="text-muted mb-0">We partner with local farms and sustainable suppliers to bring you the freshest, seasonal ingredients. Every dish is crafted with care for both your health and our planet's wellbeing.</p>
@@ -96,6 +108,7 @@
         </div>
     </main>
 
+  <!-- Footer with custom dark green background (inline style) -->
   <footer class="text-white py-5 mt-5" style="background-color: #0b3b17;">
         <div class="container">
             <div class="row">
@@ -107,12 +120,13 @@
                 </div>
                 <div class="col-md-4 mb-4 text-center">
                     <h5>Follow Us</h5>
+                    <!-- Social links with larger font size -->
                     <a href="#" class="text-white me-3 text-decoration-none fs-5">f</a>
                     <a href="#" class="text-white me-3 text-decoration-none fs-5">ig</a>
                     <a href="#" class="text-white text-decoration-none fs-5">tw</a>
                 </div>
                 <div class="col-md-4 mb-4 text-md-end">
-
+                    
                     <ul class="list-unstyled">
                         <li><a href="menu.html" class="text-white-50 text-decoration-none">Menu</a></li>
                         <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
