@@ -1,9 +1,9 @@
 # Plant Palette - Web Portfolio
 
-**Course:** 26W_MTM6201_010 Advanced Web Design with HTML & CSS
-**Author:** [Your Name]
-**Live Site:** [Insert your GitHub Pages URL here]
-**Figma Design:** [Insert your Figma Share Link here]
+**Course 26W_MTM6201_010 Advanced Web Design with HTML & CSS
+**Author:** Kiera Philippe
+**Live Site:** https://phil0473.github.io/mtm6201-final/
+**Figma Design:** https://www.figma.com/design/B7LRjw4IWMkvN4oBqATnwD/philippe-kiera-prototype?node-id=0-1&t=rUEC7k9NZRdnX8bi-1
 
 ---
 
@@ -36,9 +36,16 @@ Good design is useless if it's not accessible. Building this forced me to rely s
   * [Inter](https://fonts.google.com/specimen/Inter) (Body copy)
 
 ### Imagery & Media
-*(Note: No AI-generated images were used in this project.)* * **Hero Background (`hero-bg.png`):** [Insert source, e.g., Unsplash by Photographer Name / Link] 
-* **Farm Fresh Images (`farm-fresh-lg.jpg`, `farm-fresh-sm.jpg`):** [Insert source / Link] 
-* **Menu Items (`salad.jpg`, `truffle-pasta.jpg`):** [Insert source / Link] 
-* **About Hero (`about-hero-lg.jpg`, `about-hero-sm.jpg`):** [Insert source / Link] 
+*(Note: No AI-generated images were used in this project.)* * **Hero Background (`hero-bg.png`):** Pexels, Ella Olsson. Free to use. https://www.pexels.com/photo/fruit-salads-in-plate-1640774/
+
+* **Farm Fresh Images (`farm-fresh-lg.jpg`):** Unsplash, Engin Akyurt. Free to use. https://unsplash.com/photos/red-green-and-yellow-chili-peppers-and-green-chili-peppers-Y5n8mCpvlZU
+
+* **Menu Items (`salad.jpg`, `truffle-pasta.jpg`):** Pexels, Towfiqu Barbhuiya. https://www.pexels.com/photo/close-up-shot-of-a-salad-12474263/
+
+Pexels, Nour Alhoda. https://www.pexels.com/photo/delicious-spaghetti-bolognese-on-wooden-board-32632540/
+
+
+* **About Hero (`about-hero-lg.jpg`):** Unsplash, Sonny M. https://unsplash.com/photos/a-blue-bowl-filled-with-vegetables-and-a-wooden-spoon-yhc4pSbl01A
+
 * **Impact Chart (`impact-chart.png`):** Custom graphic exported from my Figma file.
 * **Icons (SVG):** Inline SVGs from [Bootstrap Icons](https://icons.getbootstrap.com/).
